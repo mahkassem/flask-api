@@ -13,9 +13,16 @@ This is a simple Flask API that allows you to create, read, update and delete us
 Create a virtual environment and install the dependencies:
 
 ```bash
+# Create a virtual environment
 python -m venv venv
+
+# Activate the virtual environment
 source venv/bin/activate
+
+# Install the dependencies
 pip install -r requirements.txt
+# Or
+pip install -e .
 ```
 
 ## Run (WSGI)

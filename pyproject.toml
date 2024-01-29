@@ -1,0 +1,11 @@
+[project]
+name = "myapp"
+version = "1.0.0"
+description = "A simple flask api"
+dependencies = [
+    "flask==3.0.1",
+]
+
+[build-system]
+requires = ["flit_core<4"]
+build-backend = "flit_core.buildapi"
